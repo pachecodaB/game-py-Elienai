@@ -13,7 +13,7 @@ pygame.display.set_caption("Janela com Imagem")
 BG_COLOR = (30, 30, 40) # cor do fundo (uma cor escura)
 
 # Carregar a Imagem
-image_file = "player.png" # Coloque o nome da sua imagem aqui
+image_file = "" # Coloque o nome da sua imagem aqui
 if os.path.exists(image_file):
     img = pygame.image.load(image_file).convert_alpha() # Carregar a imagem
     img_rect = img.get_rect(center=(WIDTH // 2, HEIGHT // 2)) # Centralizar a imagem
